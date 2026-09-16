@@ -12,4 +12,3 @@ elif ld == 0:
     print(f"{msg} 0")
 else:
     print(f"{msg} less than 6 and not 0")
-    
