@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-def print_reversed_list_integer(my_list=[]):
-    if my_list is None:
-        return
-    for i in reversed(my_list):
-        print("{:d}".format(i))
+def print_matrix_integer(matrix=[[]]):
+    for row in matrix:
+        print(" ".join("{:d}".format(col) for col in row))
