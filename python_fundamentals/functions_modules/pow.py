@@ -13,4 +13,3 @@ def pow(a, b):
     if is_negative:
         return 1 / result
     return result
-
