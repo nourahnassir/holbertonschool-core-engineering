@@ -4,7 +4,6 @@ def pow(a, b):
     if b == 0:
         return 1
     
-    # إذا كان الأس سالباً، نحسب للأس الموجب أولاً ثم نقلبه
     is_negative = False
     if b < 0:
         is_negative = True
