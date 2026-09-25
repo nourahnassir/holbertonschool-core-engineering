@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Defines a square by its size."""
+
+
 class Square:
     """Represents a square."""
 
