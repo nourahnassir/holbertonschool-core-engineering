@@ -1,11 +1,5 @@
-#!/usr/init/env python3
+#!/usr/bin/env python3
 """Defines a class Square that inherits from Rectangle."""
-
-
-class Rectangle:
-    """Placeholder or base import helper."""
-    pass
-
 
 Rectangle = __import__('2-rectangle').Rectangle
 
