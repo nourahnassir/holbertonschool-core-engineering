@@ -5,7 +5,10 @@ import websockets
 
 
 async def connect_and_send(uri: str, text: str) -> str:
-    """Connect to a WebSocket server, send text, receive response, and close."""
+    """Connect to a WebSocket server, send text,
+
+    receive response, and close.
+    """
     async with websockets.connect(uri) as websocket:
         await websocket.send(text)
         response = await websocket.recv()
